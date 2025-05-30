@@ -8,18 +8,206 @@
   <meta name="author" content="Permak.in">
   <meta name="geo.region" content="ID-JI">
   <meta name="geo.placename" content="Mojokerto">
-  <meta name="geo.position" content="-7.4724;112.4346">
-  <meta name="ICBM" content="-7.4724, 112.4346">
-
+  <meta name="geo.position" content="-7.457133;112.444983">
+  <meta name="ICBM" content="-7.457133, 112.444983">   
+  <meta name="robots" content="index, follow">
   <title>Permak.in - Permak Pakaian Instan Mojokerto</title>
+      
+  <meta property="og:title" content="Permak pakaian Mojokerto, jasa permak cepat, tailoring urban, permak antar jemput, jahit baju Mojokerto">
+  <meta property="og:description" content="Permak.in - Jasa Permak Pakaian Urban Cepat & Rapi di Mojokerto. Antar-jemput, Fast Tailoring, Bisa via WhatsApp!">
+  <meta property="og:url" content="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.0731441460653!2d112.44501247348805!3d-7.457160573495342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780d318fea401d%3A0x4d0a6668e009e606!2sSepatu%20Sandal%20Mara%20Fashion!5e0!3m2!1sid!2sid!4v1715090940401!5m2!1sid!2sid">
+  <meta property="og:type" content="article">
+    
+  <meta property="og:image" content="https://maratradecenter.biz.id/gambarbebas/20250529-015017_logo-permak-in-maragroup%202.jpg">
+  <meta property="og:image:secure_url" content="https://maratradecenter.biz.id/gambarbebas/20250529-015017_logo-permak-in-maragroup%202.jpg">
+  <meta property="og:image:width" content="600">
+  <meta property="og:image:height" content="400">
+    
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="manifest" href="manifest.json">
+   
+  <link rel="canonical" href="https://maps.app.goo.gl/wLGVnNyd7PnFkvTR6">
   
-  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
-  <link rel="apple-touch-icon" href="/icons/icon-192.png">
-
-  <link rel="manifest" href="/manifest.json">
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    header video {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .hero-content {
+      position: relative;
+      text-align: center;
+      top: 40%;
+      color: #fff;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #1e3a8a;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .testimoni {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .testimoni blockquote {
+      background: #e0e7ff;
+      padding: 20px;
+      border-radius: 8px;
+      width: 300px;
+    }
+
+    form {
+      display: grid;
+      gap: 10px;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      padding: 12px;
+      background: linear-gradient(to right, #1e3a8a, #3b82f6);
+      border: none;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .social {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .social a {
+      margin: 0 10px;
+      font-size: 1.5rem;
+      color: #1e3a8a;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .hero {
+      background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1500x500.png?text=Latar+Belakang+Hero'); /* Ganti dengan gambar Anda */
+      background-size: cover;
+      background-position: center;
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+    .hero p.lead {
+        font-size: 1.5rem;
+    }
+    .hero .btn {
+        margin-top: 2rem !important; /* Menambah jarak dari paragraf */
+    }
+    section {
+        padding: 4rem 0; /* Memberikan padding standar untuk setiap section */
+    }
+    .col-md-3 i {
+        font-size: 4rem !important; /* Ukuran ikon yang lebih besar */
+        margin-bottom: 1rem;
+    }
+    .col-md-3 h5 {
+        font-weight: bold;
+    }
+    ul.list-unstyled li {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+    .blockquote {
+        font-size: 1.25rem;
+        font-style: italic;
+        margin-top: 2rem;
+    }
+    .blockquote-footer {
+        margin-top: 0.5rem;
+        display: block;
+    }
+    .cta {
+        padding: 5rem 0;
+    }
+    .cta h2 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    .accordion-button {
+        font-weight: bold;
+        background-color: #f8f9fa; /* Latar belakang untuk tombol FAQ */
+    }
+    .accordion-button:not(.collapsed) {
+        color: #000; /* Warna teks saat terbuka */
+        background-color: #e2e3e5; /* Latar belakang saat terbuka */
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+    }
+    .accordion-body {
+        text-align: left;
+    }
+    footer a {
+        text-decoration: none;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    } 
+    .floating-wa {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      padding: 12px 15px;
+      border-radius: 50%;
+      font-size: 20px;
+      z-index: 999;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+  </style>
 
 </head>
 <body>
@@ -29,7 +217,7 @@
   <div class="container">
     <h1 class="display-4 fw-bold">Permak.in</h1>
     <p class="lead">Permak Kilat, Jemput Instan. Cukup Chat, Kami Antar-Jemput!</p>
-    <a href="https://wa.me/628xxxxxxxxxx" class="btn btn-success btn-lg mt-3">
+    <a href="https://wa.me/6285816394769?text=Saya%20ingin%20layanan%20permak.in%20Bisa%20pickup%20sandangan%20kami%20segera%20di...." class="btn btn-success btn-lg mt-3">
       💬 Chat Sekarang di WhatsApp
     </a>
   </div>
@@ -95,7 +283,7 @@
 <section class="cta bg-success text-white text-center py-5">
   <div class="container">
     <h2 class="fw-bold">Butuh Cepat? Kami Jemput Sekarang!</h2>
-    <a href="https://wa.me/628xxxxxxxxxx" class="btn btn-light btn-lg mt-3">
+    <a href="https://wa.me/6285816394769?text=Saya%20ingin%20layanan%20permak.in%20Bisa%20pickup%20sandangan%20kami%20segera%20di...." class="btn btn-light btn-lg mt-3">
       📲 Klik untuk Permak Sekarang
     </a>
   </div>
@@ -134,64 +322,52 @@
   </div>
 </section>
 
-<<!-- Footer -->
-<<footer class="bg-dark text-white text-center py-4">
-  <p>© 2025 Permak.in – Solusi Urban Permak Instan Mojokerto</p>
-  <p><a href="https://wa.me/628xxxxxxxxxx" class="text-success">Chat Kami Sekarang</a></p>
-<</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-<<footer class="bg-dark text-white text-center py-4">
+<footer class="bg-dark text-white text-center py-4">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
         <h5>Hubungi Kami</h5>
         <p>Kami siap melayani Anda kapan saja! Hubungi kami lewat:</p>
         <ul class="list-unstyled">
-          <li><i class="bi bi-whatsapp me-2"></i><a href="https://wa.me/6281234567890" class="text-white" target="_blank">WhatsApp: 0812-3456-7890</a></li>
-          <li><i class="bi bi-envelope me-2"></i>Email: <a href="mailto:info@permak.in" class="text-white">info@permak.in</a></li>
+          <li><i class="bi bi-whatsapp me-2"></i><a href="https://wa.me/6285816394769?text=Saya%20ingin%20layanan%20permak.in%20Bisa%20pickup%20sandangan%20kami%20segera%20di...." class="text-white" target="_blank"><strong>WhatsApp Kami</strong></a></li>
+          <li><i class="bi bi-envelope me-2"></i>Email: <a href="matrix2274@gmail.com" class="text-white">matrix2274@gmail.com</a></li>
+          <li><i class="bi bi-site me-2"></i>Email: <a href="https://maps.app.goo.gl/qfvqqwrK5NZesCrK7" class="text-white">Lokasi</a></li>
         </ul>
       </div>
-      <div class="col-md-6">
-        <h5>Ikuti Kami di Sosial Media</h5>
-        <p>Klik ikon di bawah untuk langsung terhubung:</p>
-        <div class="d-flex gap-3">
-          <a href="https://instagram.com/permak.in" target="_blank" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
-          <a href="https://tiktok.com/@permak.in" target="_blank" class="text-white fs-4"><i class="bi bi-tiktok"></i></a>
-          <a href="https://facebook.com/permak.in" target="_blank" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
-          <a href="https://twitter.com/permak_in" target="_blank" class="text-white fs-4"><i class="bi bi-twitter-x"></i></a>
-          <a href="https://www.linkedin.com/company/permakin" target="_blank" class="text-white fs-4"><i class="bi bi-linkedin"></i></a>
-        </div>
-      </div>
-    </div>
     <hr class="my-4 border-light">
     <div class="text-center small">
       <p>© 2025 Permak.in — Semua Hak Cipta Dilindungi.</p>
+      <a href="https://www.instagram.com/matrix2274?igsh=YzljYTk1ODg3Zg==" target="_blank" class="text-white fs-4"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.tiktok.com/@mara_group?_t=ZS-8wVHP58GaUX&_r=1" target="_blank" class="text-white fs-4"><i class="bi bi-tiktok"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100067759724721" target="_blank" class="text-white fs-4"><i class="bi bi-facebook"></i></a>
+          <a href="https://maps.app.goo.gl/qfvqqwrK5NZesCrK7" target="_blank" class="text-white fs-4"><i class="bi bi-google maps"></i></a>
+          <a href="https://www.linkedin.com/in/abdul-rachman-a54a972a4/" target="_blank" class="text-white fs-4"><i class="bi bi-linkedin"></i></a>
     </div>
   </div>
-<</footer>
+</footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Permak.in",
-  "image": "https://permak.in/assets/logo-permakin.png",
-  "url": "https://permak.in",
-  "telephone": "+628123456789",
+  "image": "https://maratradecenter.biz.id/gambarbebas/20250529-015017_logo-permak-in-maragroup%202.jpg",
+  "url": "https://maratradecenter.biz.id/",
+  "telephone": "+6285816394769",
   "priceRange": "Rp",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Jl. Bhayangkara No. 88",
+    "streetAddress": "Jl. Pandan 1 / 12 Kel. Wates Magersari",
     "addressLocality": "Mojokerto",
     "addressRegion": "Jawa Timur",
-    "postalCode": "61315",
+    "postalCode": "61317",
     "addressCountry": "ID"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": -7.4729,
-    "longitude": 112.4341
+    "latitude": -7.457133,   
+    "longitude": 112.444983
   },
   "openingHoursSpecification": [{
     "@type": "OpeningHoursSpecification",
@@ -208,7 +384,6 @@
   ]
 }
 </script>
-
 
 </body>
 </html>
